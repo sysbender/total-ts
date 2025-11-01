@@ -1,5 +1,17 @@
 // .vscode/settings.json
 {
+// save and format
+// 🧠 Automatically save when you switch tabs or windows
+"files.autoSave": "onWindowChange", // or "onFocusChange" if you prefer only on tab change
+// ⚡ Optional: Format only the modified parts (saves time)
+"editor.formatOnSaveMode": "modifications",
+"files.insertFinalNewline": true,
+// 🦺 ESLint integration (if you have ESLint)
+"eslint.validate": [
+  "javascript",
+  "typescript"
+],
+
   // ==== vscode bun typescript
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -25,7 +37,7 @@
   "editor.tabSize": 2,
   "eslint.enable": true,
   "eslint.format.enable": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   "[typescript]": {

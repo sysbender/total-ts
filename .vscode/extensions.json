@@ -1,11 +1,12 @@
 {
   "recommendations": [
+    "oven.bun-vscode",
     "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
     "eamodio.gitlens",
-    "usernamehw.errorlens",
-    "lacroixdavid1.vscode-format-context-menu",
-    "kisstkondoros.vscode-codemetrics",
-    "snyk-security.snyk-vulnerability-scanner",
-    "sonarsource.sonarlint-vscode",
-  ]
+    "wix.vscode-import-cost",
+    "ritwickdey.LiveServer",
+    "aaron-bond.better-comments"
+  ],
+  "unwantedRecommendations": []
 }

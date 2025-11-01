@@ -19,7 +19,7 @@ export default [
     rules: {
       'func-style': ['error', 'expression'],
       'no-restricted-syntax': ['off', 'ForOfStatement'],
-      'no-console': ['error'],
+      // 'no-console': ['error'],
       'prefer-template': 'error',
       quotes: ['error', 'single', { avoidEscape: true }],
     },
